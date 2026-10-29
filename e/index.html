@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mars Science Project - Life Support</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>MARS MOLECULAR PROJECT</h1>
+    <p>By: Team Lead Scientists</p>
+    <p>This system scrubs CO2 from Mars and uses the Sabatier reaction to make fuel and oxygen.</p>
+
+    <hr>
+
+    <h3>My Inventory (Current Atoms)</h3>
+    <ul>
+        <li>Carbon atoms: <span id="c_total">0</span></li>
+        <li>Oxygen atoms: <span id="o_total">0</span></li>
+        <li>Hydrogen atoms: <span id="h_total">8</span></li>
+    </ul>
+
+    <h3>Controls</h3>
+    <button onclick="get_co2()">Step 1: Break CO2 Bonds</button>
+    <button onclick="make_fuel()">Step 2: Run Sabatier Reaction</button>
+    <button onclick="split_water()">Step 3: Run Electrolysis</button>
+
+    <hr>
+
+    <h3>Colony Output / Results</h3>
+    <p>Methane Gas (CH4): <span id="ch4_total">0</span> molecules</p>
+    <p>Water (H2O): <span id="h2o_total">0</span> molecules</p>
+    <p>Oxygen Gas (O2): <span id="o2_total">0</span> molecules</p>
+    <p>Heat Released: <span id="heat_total">0</span> kJ (Exothermic process)</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
