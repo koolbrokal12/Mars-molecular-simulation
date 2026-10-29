@@ -1,32 +1,36 @@
+/* science project styles */
+
 body {
-    background-color: lightgray;
+    background-color: lightsalmon; /* made it orange/pink for mars */
     color: black;
-    font-family: Arial, sans-serif;
-    margin: 40px;
+    font-family: "Comic Sans MS", sans-serif; /* standard student font swap */
+    margin: 50px;
 }
 
 h1 {
-    color: darkred;
-    text-shadow: 1px 1px gray;
+    color: red;
+    text-decoration: underline;
 }
 
+/* making the buttons big so people see them */
 button {
-    background-color: darkorange;
-    color: black;
-    padding: 10px;
-    font-size: 14px;
-    margin-right: 10px;
+    background-color: yellow;
+    color: blue;
+    font-weight: bold;
+    padding: 15px;
+    margin: 10px;
+    border: 3px solid black;
     cursor: pointer;
-    border: 2px solid black;
 }
 
-button:hover {
-    background-color: orange;
-}
-
+/* basic box layout for the lists */
 ul {
     background-color: white;
-    padding: 20px;
-    width: 200px;
-    border: 1px dashed black;
+    border: 2px solid red;
+    padding: 15px;
+    width: 250px;
+}
+
+p {
+    font-size: 18px;
 }
