@@ -18,9 +18,10 @@ function refresh_screen() {
     document.getElementById("heat_total").innerHTML = energy;
 }
 
+// Function for button 1 - boosted to scrub 3 molecules at once
 function get_co2() {
-    c = c + 1;
-    o = o + 2; 
+    c = c + 3; // adds 3 carbon atoms now
+    o = o + 6; // adds 6 oxygen atoms now
     refresh_screen();
 }
 
